@@ -1,0 +1,97 @@
+    *{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+    }
+
+    @font-face {
+        font-family: Ubuntu;
+        src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Ubuntu-Light;
+        src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+    }
+
+    body{
+        background-color: #0C0C0E;
+    }
+
+    h1{
+        color: #9146FF;
+        font-family: Ubuntu-Light;
+        font-size: 8vw;
+        text-align: center;
+        margin-top: 3vw;
+    }
+
+    img{
+        height: 50vw;
+        margin-left: 12.5%;
+        width: 75%;
+        margin-top: 4vw;
+    }
+
+    #div{
+        background-color: #9146FF;
+        border-color: #16161A;
+        border-radius: 2.5vw;
+        margin-left: 12.5%;
+        width: 75%;
+        margin-top: 4vw;
+        height: 10vw;
+        font-family: Ubuntu;
+        text-align: center;
+    }
+    a{
+      text-decoration:none;
+      color: #FFFFFF;
+      font-size: 8vw;
+    }
+
+@media only screen and (min-width: 1024px) {
+
+    *{
+          box-sizing:border-box;
+            margin:0;
+            padding:0;
+    }
+
+    body{
+        background-color: #0C0C0E;
+    }
+
+    h1{
+        color: #9146FF;
+        font-family: Ubuntu-Light;
+        font-size: 4.5vw;
+        text-align: center;
+        margin-top: 2vw;
+    }
+
+    img{
+    height: 40vw;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 4vw;
+    }
+
+    #div{
+        background-color: #9146FF;
+        border-color: #16161A;
+        border-radius: 1vw;
+        margin-left: 37.5%;
+        width: 25%;
+        margin-top: 2vw;
+        height: 5vw;
+        font-family: Ubuntu;
+        color: white;
+        font-size: 2.5vw;
+    }
+    a{
+      text-decoration:none;
+      color: #FFFFFF;
+      font-size: 4vw;
+    }
+}
